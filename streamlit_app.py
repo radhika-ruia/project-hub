@@ -1,4 +1,5 @@
 import streamlit as st
+import pygame
 import subprocess
 
 st.title("🧩 Maze Generator Hub")
@@ -15,4 +16,5 @@ with col1:
 with col2:
     if st.button("HAK Maze Generator"):
         subprocess.run(["python", "maze_HAK.py"])
+
 
